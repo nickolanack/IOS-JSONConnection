@@ -13,7 +13,7 @@
 		90CC41C41B1905F2008A87D2 /* ConnectionListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CC41C11B1905F2008A87D2 /* ConnectionListener.m */; };
 		90CC41C51B1905F2008A87D2 /* ConnectionListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CC41C11B1905F2008A87D2 /* ConnectionListener.m */; };
 		90CC41C71B19091F008A87D2 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 90CC41C61B19091F008A87D2 /* .travis.yml */; };
-		90CC41CC1B190CD4008A87D2 /* JsonConnectionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CC41CB1B190CD4008A87D2 /* JsonConnectionTest.m */; };
+		90CC41D11B191058008A87D2 /* IOS-JSONConnectionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CC41D01B191058008A87D2 /* IOS-JSONConnectionsTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +47,7 @@
 		90CC41C01B1905F2008A87D2 /* ConnectionListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionListener.h; sourceTree = "<group>"; };
 		90CC41C11B1905F2008A87D2 /* ConnectionListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionListener.m; sourceTree = "<group>"; };
 		90CC41C61B19091F008A87D2 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
-		90CC41CB1B190CD4008A87D2 /* JsonConnectionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonConnectionTest.m; sourceTree = "<group>"; };
+		90CC41D01B191058008A87D2 /* IOS-JSONConnectionsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IOS-JSONConnectionsTests.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				90CC41B41B1905BF008A87D2 /* Supporting Files */,
-				90CC41CB1B190CD4008A87D2 /* JsonConnectionTest.m */,
+				90CC41D01B191058008A87D2 /* IOS-JSONConnectionsTests.m */,
 			);
 			path = "IOS-JSONConnectionTests";
 			sourceTree = "<group>";
@@ -214,7 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90CC41CC1B190CD4008A87D2 /* JsonConnectionTest.m in Sources */,
+				90CC41D11B191058008A87D2 /* IOS-JSONConnectionsTests.m in Sources */,
 				90CC41C31B1905F2008A87D2 /* JsonSocket.m in Sources */,
 				90CC41C51B1905F2008A87D2 /* ConnectionListener.m in Sources */,
 			);

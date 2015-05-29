@@ -1,5 +1,5 @@
 //
-//  JsonConnectionTest.m
+//  IOS-JSONConnectionsTests.m
 //  IOS-JSONConnection
 //
 //  Created by Nick Blackwell on 2015-05-29.
@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface JsonConnectionTest : XCTestCase
+@interface IOS_JSONConnectionsTests : XCTestCase
 
 @end
 
-@implementation JsonConnectionTest
+@implementation IOS_JSONConnectionsTests
 
 - (void)setUp {
     [super setUp];
