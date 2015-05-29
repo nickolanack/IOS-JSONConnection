@@ -12,6 +12,7 @@
 		90CC41C31B1905F2008A87D2 /* JsonSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CC41BF1B1905F2008A87D2 /* JsonSocket.m */; };
 		90CC41C41B1905F2008A87D2 /* ConnectionListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CC41C11B1905F2008A87D2 /* ConnectionListener.m */; };
 		90CC41C51B1905F2008A87D2 /* ConnectionListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CC41C11B1905F2008A87D2 /* ConnectionListener.m */; };
+		90CC41C71B19091F008A87D2 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 90CC41C61B19091F008A87D2 /* .travis.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		90CC41BF1B1905F2008A87D2 /* JsonSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonSocket.m; sourceTree = "<group>"; };
 		90CC41C01B1905F2008A87D2 /* ConnectionListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionListener.h; sourceTree = "<group>"; };
 		90CC41C11B1905F2008A87D2 /* ConnectionListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionListener.m; sourceTree = "<group>"; };
+		90CC41C61B19091F008A87D2 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 		90CC419B1B1905BE008A87D2 = {
 			isa = PBXGroup;
 			children = (
+				90CC41C61B19091F008A87D2 /* .travis.yml */,
 				90CC41A61B1905BF008A87D2 /* IOS-JSONConnection */,
 				90CC41B31B1905BF008A87D2 /* IOS-JSONConnectionTests */,
 				90CC41A51B1905BF008A87D2 /* Products */,
@@ -188,6 +191,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90CC41C71B19091F008A87D2 /* .travis.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
