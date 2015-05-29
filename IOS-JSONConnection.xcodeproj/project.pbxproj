@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		90CC41A81B1905BF008A87D2 /* IOS_JSONConnection.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 90CC41A71B1905BF008A87D2 /* IOS_JSONConnection.h */; };
-		90CC41AA1B1905BF008A87D2 /* IOS_JSONConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CC41A91B1905BF008A87D2 /* IOS_JSONConnection.m */; };
 		90CC41B01B1905BF008A87D2 /* libIOS-JSONConnection.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90CC41A41B1905BF008A87D2 /* libIOS-JSONConnection.a */; };
+		90CC41C21B1905F2008A87D2 /* JsonSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CC41BF1B1905F2008A87D2 /* JsonSocket.m */; };
+		90CC41C31B1905F2008A87D2 /* JsonSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CC41BF1B1905F2008A87D2 /* JsonSocket.m */; };
+		90CC41C41B1905F2008A87D2 /* ConnectionListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CC41C11B1905F2008A87D2 /* ConnectionListener.m */; };
+		90CC41C51B1905F2008A87D2 /* ConnectionListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CC41C11B1905F2008A87D2 /* ConnectionListener.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +31,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				90CC41A81B1905BF008A87D2 /* IOS_JSONConnection.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,10 +38,12 @@
 
 /* Begin PBXFileReference section */
 		90CC41A41B1905BF008A87D2 /* libIOS-JSONConnection.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libIOS-JSONConnection.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		90CC41A71B1905BF008A87D2 /* IOS_JSONConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOS_JSONConnection.h; sourceTree = "<group>"; };
-		90CC41A91B1905BF008A87D2 /* IOS_JSONConnection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOS_JSONConnection.m; sourceTree = "<group>"; };
 		90CC41AF1B1905BF008A87D2 /* IOS-JSONConnectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IOS-JSONConnectionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90CC41B51B1905BF008A87D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90CC41BE1B1905F2008A87D2 /* JsonSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonSocket.h; sourceTree = "<group>"; };
+		90CC41BF1B1905F2008A87D2 /* JsonSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonSocket.m; sourceTree = "<group>"; };
+		90CC41C01B1905F2008A87D2 /* ConnectionListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionListener.h; sourceTree = "<group>"; };
+		90CC41C11B1905F2008A87D2 /* ConnectionListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionListener.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +86,10 @@
 		90CC41A61B1905BF008A87D2 /* IOS-JSONConnection */ = {
 			isa = PBXGroup;
 			children = (
-				90CC41A71B1905BF008A87D2 /* IOS_JSONConnection.h */,
-				90CC41A91B1905BF008A87D2 /* IOS_JSONConnection.m */,
+				90CC41BE1B1905F2008A87D2 /* JsonSocket.h */,
+				90CC41BF1B1905F2008A87D2 /* JsonSocket.m */,
+				90CC41C01B1905F2008A87D2 /* ConnectionListener.h */,
+				90CC41C11B1905F2008A87D2 /* ConnectionListener.m */,
 			);
 			path = "IOS-JSONConnection";
 			sourceTree = "<group>";
@@ -193,7 +198,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90CC41AA1B1905BF008A87D2 /* IOS_JSONConnection.m in Sources */,
+				90CC41C21B1905F2008A87D2 /* JsonSocket.m in Sources */,
+				90CC41C41B1905F2008A87D2 /* ConnectionListener.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +207,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90CC41C31B1905F2008A87D2 /* JsonSocket.m in Sources */,
+				90CC41C51B1905F2008A87D2 /* ConnectionListener.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
